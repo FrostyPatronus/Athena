@@ -1,12 +1,16 @@
 import React from "react"
 
+import Navbar from "./containers/static/Navbar"
+
 class Layout extends React.Component {
   
   render () {
     
     return (
       <div>
-        Layout
+      
+        <Navbar/>
+        
         {this.props.children}
         
       </div>
